@@ -4,9 +4,7 @@ I used Djoser.
 
 Endpoints:
 
-/api/users  (POST)
-/api/users/users/me/  (GET)
-/token/login/  (POST)
+![CHEESE!](login.PNG)
 
 /api/menu-items  (GET)(For managers , customers and delivery crew)   (POST-PUT-PATCH-DELETE)(403-Unauthorized for customers and delivery crew)
 (POST)(201-Created for managers)
