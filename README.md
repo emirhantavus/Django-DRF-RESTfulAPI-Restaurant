@@ -1,21 +1,33 @@
 # Django-DRF-RESTfulAPI-Restaurant
 Little Restaurant RESTful API example
-I used Djoser.
+I used Djoser and Sqlite3
 
 Endpoints:
 
-![CHEESE!](login.PNG)
+![CHEESE!](/images/login.PNG)
 
-/api/menu-items  (GET)(For managers , customers and delivery crew)   (POST-PUT-PATCH-DELETE)(403-Unauthorized for customers and delivery crew)
-(POST)(201-Created for managers)
+![CHEESE!](/images/menuitem.PNG)
 
-/api/menu-items/{menuItem} (GET)(For managers , customers and delivery crew)   (POST-PUT-PATCH-DELETE)(403-Unauthorized for customers and delivery crew)
-(POST-PUTH-PATCH-DELETE)(For managers)
+![CHEESE!](/images/gmanager.PNG)
 
-/api/groups/manager/users  (GET)(Just for managers)
-/api/groups/manager/users (POST)(Just for managers)
-/api/groups/manager/users/{userId} (DELETE)(Just for managers)
+![CHEESE!](/images/gdelivery.PNG)
 
-/api/groups/delivery-crew/users  (GET)(Just for managers)
-/api/groups/delivery-crew/users  (POST)(Just for managers)
-/api/groups/delivery-crew/users/{userId}  (DELETE)(Just for managers)
+![CHEESE!](/images/order.PNG)
+
+
+Database Models:
+
+Category Model:
+![CHEESE!](/images/categoryModel.PNG)
+
+Menu Item Model:
+![CHEESE!](/images/menuItemModel.PNG)
+
+Cart Model:
+![CHEESE!](/images/cartModel.PNG)
+
+Order Model:
+![CHEESE!](/images/orderModel.PNG)
+
+Order Item Model:
+![CHEESE!](/images/orderItemModel.PNG)
