@@ -1,0 +1,19 @@
+tokens:
+{
+	"auth_token": "5d38f99e96b71b338fbbe16ee282619091c07cfe" (jimmy token)(customer)
+}
+{
+	"auth_token": "1589a3b31658426b90adfdb890144c6c663d9a95" (john token)(customer)
+}
+{
+	"auth_token": "88ca9b81e4050ee7ed3d07782920aa45cba9a802"(daniel token)(manager)
+}
+{
+	"auth_token": "2dca80f029da6318e724f0aeb74e7dd4c20f01ae"(david token)(manager)
+}
+{
+	"auth_token": "94ab4b48ea69773c0455c5b91f3a3d8a87534e68"(kel token)(delivery)
+}
+{
+	"auth_token": "e47aefd91ccaa2d54064278115995f2e36f7f6a5"(pilia token)(delivery)
+}
